@@ -10,20 +10,43 @@ body {
 header,
 nav,
 section,
-article {
+aside {
     background-color: #ebebeb; 
+    text-align: center;
+    border-style: solid; 
+    border-color: #777777;
 }
 
 
 header {
     margin: 0 15px; 
     height: 10%; 
+    padding: 5px; 
+    
 
 }
 
 nav {
     margin: 0 15px; 
     height: 10%; 
+    padding: 5px; 
+}
 
+section, 
+aside {
+    width: 48%;
+    height: 38%; 
+}
 
+article {
+    background-color: #777777;
+    color: #ebebeb;
+}
+
+section {
+    float: left;
+}
+
+aside {
+    float: right;
 }
