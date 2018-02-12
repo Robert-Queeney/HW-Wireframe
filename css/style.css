@@ -24,7 +24,7 @@ p {
 
 
 header {
-    
+    width: 100%; 
     height: 10%; 
     padding: 5px; 
 }
@@ -34,6 +34,8 @@ nav {
     height: 10%; 
     padding: 5px; 
 }
+
+
 
 section, 
 aside {
@@ -51,11 +53,18 @@ li {
 }
 
 
+
 section {
     float: left;
 }
 
 aside {
     float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
